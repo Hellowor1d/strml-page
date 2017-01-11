@@ -1,0 +1,27 @@
+language: node_js
+node_js: '6'
+sudo: false
+branches:
+  only:
+  - dev
+cache:
+  directories:
+  - node_modules
+before_install:
+- export TZ=Asia/Shanghai
+- openssl aes-256-cbc -K $encrypted_95990c81bb7b_key -iv $encrypted_95990c81bb7b_iv -in .travis/id_rsa_ci.enc -out ~/.ssh/id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
+- eval $(ssh-agent)
+- ssh-add ~/.ssh/id_rsa
+- cp .travis/ssh_config ~/.ssh/config
+- git config --global user.name 'hellowor1d'
+- git config --global user.email '1034597776@qq.com'
+install:
+- npm install
+script:
+- git checkout gh-pages
+- git merge dev
+- npm run build
+- git add .
+- git commit -m "update"
+- git push
