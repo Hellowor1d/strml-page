@@ -2,46 +2,27 @@
 =========
 
 刘明亮
-前端开发工程师
-Frontend / NodeJS Developer
 
-Contact
+前端开发工程师
+
+联系方式
 -------
 
 * Mail : 1034597776@qq.com
 * Phone : 18612183548
 * 其他你能找到的方式
 
-Availability
+简历
 ------------
 
-At this time, I am busy. I am happy to entertain
-proposals for later work but immediate availability
-is scarce.
+如果你想更多的了解我，可以访问我的在线简历了：
 
-Projects
+http://hellowor1d.github.io
+
+项目经历
 --------
 
-* www.BitMEX.com
-* www.Securesha.re
-* www.Tixelated.com
-* www.BrightestYoungThings.com
+* 公司宝--蜂巢系统
 
-Open Source
------------
-
-* OpenBazaar
-* JSXHint
-* btchip-signing-tools
-* react-grid-layout
-* react-localstorage
-* react-router-component
-* react-resizable
-* react-draggable
-* textFit
-* imgur-to-gfycat
-* backbone.queryRouter
-* backbone.layoutManager
-* mongoose-filter-denormalize
 
 

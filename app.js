@@ -174,10 +174,10 @@ function createEventHandlers() {
   pauseEl.addEventListener('click', function(e) {
     e.preventDefault();
     if (paused) {
-      pauseEl.textContent = "Pause ||";
+      pauseEl.textContent = "暂停 || ";
       paused = false;
     } else {
-      pauseEl.textContent = "Resume >>";
+      pauseEl.textContent = "继续 >> ";
       paused = true;
     }
   });

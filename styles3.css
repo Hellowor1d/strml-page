@@ -1,6 +1,6 @@
 
 /**
- * We're almost done.
+ * 到这里，基本就完事儿了.
  */
 
  pre:hover{
@@ -12,6 +12,9 @@
  }
 
 /**
+ * 
+ * 希望你跟我一样，喜欢这种有趣的网页展示方式，下面是大牛的原话，谢谢他
+ *
  * I hope you enjoyed this.
  *
  * Thanks to Jake Albaugh, who was the first (that I know of) to do
@@ -22,16 +25,17 @@
  */
 
 /**
- * By the way, you can edit this box. Try adding new CSS!
+ * 顺便说一下, 这里的东西你都可以编辑啦. 可以尝试添加新的 CSS!
  *
- * For example,
+ * 比如说,
  *
- * The property 'text-shadow' takes the parameters:
+ * 'text-shadow' 的属性中包含这些参数:
  * 'x', 'y', 'blur', 'color'.
  *
- * So if I wanted to mirror the values,
- * I could place a shadow 15px under it,
- * with a little blur for effect:
+ * 如果我想实现一个 values 镜像效果的话,
+ * 那我会在所有 values 的下方添加一个15px的阴影,
+ * 并且带有点儿模糊效果:
+ * 看到了没？
  */
 
 .value {
@@ -39,9 +43,9 @@
 }
 
 /**
- * Try it out! There's lots you can do.
- * Try playing with text sizes, shadows, animations, or just
- * break the page. I won't hold it against you.
+ * 尽情去尝试吧! 可以实现的效果和功能还有很多啦.
+ * 比如那些 字号、 阴影、 动画啦, 即便
+ * 你把这个网页拆了. 也没关系哦～.
  */
 
 
