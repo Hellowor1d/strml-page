@@ -1,16 +1,16 @@
-STRML.net
+犀利一下下
 =========
 
-Samuel Reed
-CTO, BitMEX (The Bitcoin Mercantile Exchange)
+刘明亮
+前端开发工程师
 Frontend / NodeJS Developer
 
 Contact
 -------
 
-* sam at bitmex dot com
-* samuel.trace.reed at gmail dot com
-* STRML on irc.freenode.net
+* Mail : 1034597776@qq.com
+* Phone : 18612183548
+* 其他你能找到的方式
 
 Availability
 ------------
