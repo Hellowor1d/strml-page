@@ -1,0 +1,11 @@
+html,body{font-family:"Microsoft YaHei";font-size: 14px;line-height: 1.5;letter-spacing:normal !important;}
+html *,body *{letter-spacing:normal !important;}
+.baseDel_:hover .delete_{display:none;}
+.positonDiv:hover .editBtn{display:none;}
+
+.baseStyle .headDiv:hover .headNotice{display:none;}
+.baseStyle .positonDiv:hover{border:1px dashed transparent;}
+.baseStyle .baseBorder:hover{border:1px dashed transparent;}
+.baseStyle .baseBorder:focus,.baseStyle .baseBorder div:focus,.baseStyle .baseBorder input:focus{border:1px dashed transparent;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;-webkit-user-select:none;}
+.wbd-fontBar {display: none;}
+.wbd-baseStyle{overflow: hidden !important;font-family: "Microsoft YaHei";}
