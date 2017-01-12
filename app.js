@@ -5,7 +5,6 @@ const md = Markdown.markdown.toHTML;
 import workText from 'raw!./work.txt';
 import pgpText from 'raw!./pgp.txt';
 import headerHTML from 'raw!./header.html';
-import cvHTML from 'raw!./cv.html';
 let styleText = [0, 1, 2, 3].map(function(i) { return require('raw!./styles' + i + '.css'); });
 import preStyles from 'raw!./prestyles.css';
 import replaceURLs from './lib/replaceURLs';
@@ -36,8 +35,7 @@ async function startAnimation() {
     createWorkBox();
     await Promise.delay(1000);
     await writeTo(styleEl, styleText[2], 0, speed, true, 1);
-    // await writeTo(pgpEl, pgpText, 0, speed, false, 32);
-    await populateCv();
+    await writeTo(pgpEl, pgpText, 0, speed, false, 32);
     await writeTo(styleEl, styleText[3], 0, speed, true, 1);
   }
   // Flow control straight from the ghettos of Milwaukee
@@ -157,12 +155,6 @@ function populateHeader() {
   let header = document.getElementById('header');
   header.innerHTML = headerHTML;
 }
-
-function populateCv() {
-  let cv = document.getElementById('cv');
-  cv.innerHTML = cvHTML;
-}
-
 
 //
 // Create basic event handlers for user input.
