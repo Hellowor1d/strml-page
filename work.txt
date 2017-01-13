@@ -12,19 +12,27 @@
 
 * Phone : 18612183548
 
-* 其他你能找到的方式
+* 其他你能找到的方式也行
 
 简历
 ------------
 
-如果你想更多的了解我，可以访问我的在线简历了：
+[在线简历](https://hellowor1d.github.io/cv )
 
-http://hellowor1d.github.io
+如果你想更多的了解我，可以看看我的博客，其实这些东西下角也有快捷方式：
+
+[个人博客](https://hellowor1d.github.io)
+
+[还有知乎](zhihu.com/people/xi-li-yixia-xia)
 
 项目经历
 --------
 
 * 公司宝--蜂巢系统
+
+* 个人项目--Hexo博客
+
+* 个人项目--交互式网页
 
 
 
