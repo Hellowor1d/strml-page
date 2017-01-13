@@ -99,12 +99,12 @@ async function writeTo(el, message, index, interval, mirrorToStyle, charsPerInte
   // Write a character or multiple characters to the buffer.
   let chars = message.slice(index, index + charsPerInterval);
   index += charsPerInterval;
-  
+
   //load pgpText as html
   if (charsPerInterval == 2) {
     el.innerHTML = message;
   }
-  
+
   // Ensure we stay scrolled to the bottom.
   el.scrollTop = el.scrollHeight;
 
@@ -112,7 +112,10 @@ async function writeTo(el, message, index, interval, mirrorToStyle, charsPerInte
   if (mirrorToStyle) {
     writeChar(el, chars, style);
   } else {
-    writeSimpleChar(el, chars);
+    //fix bug: extral "a"
+    if(charsPerInterval !== 2){
+      writeSimpleChar(el, chars);
+    }
   }
 
   // Schedule another write.
