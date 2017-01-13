@@ -1,5 +1,5 @@
 
-<a href="https:hellowor1d.github.io/cv" target="_blank">
+<a href="http://hellowor1d.github.io/cv" target="_blank">
     <img src="http://7xo9xp.com1.z0.glb.clouddn.com/cv/cv.png" style="width:300px">
     <span>点击查看高清版</span>
 </a>
