@@ -1,5 +1,41 @@
 
-<a href="http://hellowor1d.github.io/cv" target="_blank">
+<style>
+ .imgctn,.imgctn a:after {
+  border:none;
+}
+.imgctn,.imgctn a{
+    text-decoration:none;
+}
+.view-clear{
+    font-family: "微软雅黑";
+    font-size:24px;
+    font-style: bold;
+}
+.imgleft{
+    float: left;
+}
+.ctnview{
+    margin:0 80px;
+    float:right;
+    width:250px;
+}
+.ctnview a p{
+    color: #4fc08d;
+}
+</style>
+
+<a class="imgctn imgleft" href="http://hellowor1d.github.io/cv" target="_blank">
     <img src="http://7xo9xp.com1.z0.glb.clouddn.com/cv/cv.png" style="width:300px">
-    <span>点击查看高清版</span>
 </a>
+
+<div class="imgctn ctnview">
+        <a href="http://hellowor1d.github.io/cv" target="_blank">
+            <p class="view-clear">查看高清版</p>
+        </a>
+
+        <a href="http://7xo9xp.com1.z0.glb.clouddn.com/cv/resume-liu.pdf" target="_blank">
+            <p class="view-clear">下载PDF版</p>
+        </a>
+
+</div>
+
