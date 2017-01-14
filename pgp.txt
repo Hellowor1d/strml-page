@@ -21,6 +21,7 @@
 }
 .ctnview a p{
     color: #4fc08d;
+    margin:15px;
 }
 </style>
 
