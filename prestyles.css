@@ -20,7 +20,7 @@ pre {
 
 #header {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   height: 20px;
   left: 0;
   right: 0;
@@ -37,4 +37,7 @@ a:after {
 
 a:last-of-type:after {
   border: none;
+}
+a.text{
+      font-size:20px;
 }
